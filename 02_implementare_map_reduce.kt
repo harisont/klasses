@@ -34,17 +34,3 @@ fun <T> mappa(funzione: (T) -> (T), lista: List<T>): List<T> {
      nuovaLista.add(funzione(elemento))
     return nuovaLista
 }
-
-// Implementazioni ricorsive di map e filter
-/*
-fun <T> mappaR(funzione: (T) -> (T), lista: List<T>): List<T> {
-    ...
-}
-
-fun <T> filtraR(funzione: (T) -> Boolean, lista: List<T>): List<T> {
-    if (lista.isEmpty())
-     return lista
-    else
-     ...
-}
-*/
